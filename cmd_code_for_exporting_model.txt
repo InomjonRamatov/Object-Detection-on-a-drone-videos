@@ -1,0 +1,1 @@
+python export_inference_graph.py   --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v1_coco.config --trained_checkpoint_prefix training/model.ckpt-1000  --output_directory test_trained_model
